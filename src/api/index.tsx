@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/camelcase */
 import urllib from 'url';
 
 import log from 'loglevel';
@@ -104,7 +103,7 @@ export enum HttpMethod {
   PUT = 'PUT',
 }
 
-type CallApiParams<BodyDataType extends undefined | {}> = {
+type CallApiParams<BodyDataType extends undefined | Record<string, unknown>> = {
   _makeQueryString?: typeof makeQueryString;
   apiState: ApiState;
   bodyData?: BodyDataType;
@@ -150,8 +149,8 @@ type EmptyRequestAndResponse = {
 
 export const callApi = async <
   T extends {
-    requestData: undefined | {};
-    successfulResponse: {};
+    requestData: undefined | Record<string, unknown>;
+    successfulResponse: Record<string, unknown>;
   }
 >({
   _makeQueryString = makeQueryString,
