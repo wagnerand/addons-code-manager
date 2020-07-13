@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "https://addons-code-manager.cdn.mozilla.net/main.5c18f91a97d45c9898b3.css",
+    "main.js": "https://addons-code-manager.cdn.mozilla.net/main.eabca67c6a256d712682.bundle.js",
+    "main.css.map": "https://addons-code-manager.cdn.mozilla.net/main.5c18f91a97d45c9898b3.css.map",
+    "main.js.map": "https://addons-code-manager.cdn.mozilla.net/main.eabca67c6a256d712682.bundle.js.map",
+    "runtime~main.js": "https://addons-code-manager.cdn.mozilla.net/runtime~main.eabca67c6a256d712682.bundle.js",
+    "runtime~main.js.map": "https://addons-code-manager.cdn.mozilla.net/runtime~main.eabca67c6a256d712682.bundle.js.map",
+    "vendors~main.css": "https://addons-code-manager.cdn.mozilla.net/vendors~main.0957bd67fc96c3541f38.css",
+    "vendors~main.js": "https://addons-code-manager.cdn.mozilla.net/vendors~main.eabca67c6a256d712682.bundle.js",
+    "vendors~main.css.map": "https://addons-code-manager.cdn.mozilla.net/vendors~main.0957bd67fc96c3541f38.css.map",
+    "vendors~main.js.map": "https://addons-code-manager.cdn.mozilla.net/vendors~main.eabca67c6a256d712682.bundle.js.map",
+    "iframe.html": "https://addons-code-manager.cdn.mozilla.net/iframe.html",
+    "precache-manifest.ef11ebb3b97452adc8981c40a345fdec.js": "https://addons-code-manager.cdn.mozilla.net/precache-manifest.ef11ebb3b97452adc8981c40a345fdec.js",
+    "service-worker.js": "https://addons-code-manager.cdn.mozilla.net/service-worker.js"
+  },
+  "entrypoints": [
+    "runtime~main.eabca67c6a256d712682.bundle.js",
+    "vendors~main.css",
+    "vendors~main.0957bd67fc96c3541f38.css",
+    "vendors~main.eabca67c6a256d712682.bundle.js",
+    "main.css",
+    "main.5c18f91a97d45c9898b3.css",
+    "main.eabca67c6a256d712682.bundle.js"
+  ]
+}
